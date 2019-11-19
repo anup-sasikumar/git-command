@@ -6,3 +6,4 @@
 - git add : add all the changes at that point in time from working directory to staging area
 - git commit : commit the changes from staging area to the current branch
 - git config : set or get the configuration parameters
+- git log : show history of project commits
