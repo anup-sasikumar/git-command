@@ -8,3 +8,8 @@
 - git config : set or get the configuration parameters
 - git log : show history of project commits
 - git checkout -b : creates a new branch and switches to it
+
+##To understand stash
+- git stash : stores the uncommitted changes from working directory and index state as WIP
+- git stash list : lists the uncommitted changes in the current branch
+- git stash pop : apply the uncommitted changes back to the working directory
