@@ -14,4 +14,6 @@
 - $ git log --since “<date>” : shows the history of all commits by period on the current branch
 - $ git log --until “<date>” : shows the history of all commits till date on the current branch
 - git show <commit-ref> : shows the history and differences introduced by commit reference
-- git diff : shows the difference between commits, the working directory and the staging area
+- git diff : shows the difference between working directory and HEAD
+- git diff <ref> : shows the difference working directory and commit reference
+- git diff --cached : shows the difference working directory and staging area ready to be committed
