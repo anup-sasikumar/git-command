@@ -7,6 +7,9 @@
 - git commit : commit the changes from staging area to the current branch
 - git config : set or get the configuration parameters
 - git log : show history or log of project commits
+- git branch -c name : creates a new branch with given name
+- git branch : lists all the branches in the repository with an indicator on current branch
+- git checkout name : check out or switches to the branch name
 - git merge : Merge changes from different branches
 
 ##Merge operation brings changes from one branch into another
