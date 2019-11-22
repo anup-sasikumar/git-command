@@ -10,3 +10,4 @@
 - git merge : Merge changes from different branches
 
 ##Merge operation brings changes from one branch into another
+A fast-forward merge happens when the target branch (merged_branch) was branched from the current branch (master) and there are no changes to current branch since then.
