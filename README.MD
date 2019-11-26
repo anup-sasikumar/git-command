@@ -29,12 +29,15 @@
 
 
 ##Merge operation brings changes from one branch into another
-- git merge : Merge changes from different branches
+- git merge : merge changes from different branches
 
 ##GIT Remote
-- git remote add <remote> <url> : Add a new <remote> at <url>
-- git remote -v : List remote repositories
-- git push -u <remote> <branch> : push <branch> to <remote> and set default upstream for <branch>  
+- git remote add <remote> <url> : add a new <remote> at <url>
+- git remote -v : list remote repositories
+- git push -u <remote> <branch> : push <branch> to <remote> and set default upstream for <branch>
+- git fetch : fetches files from remote origin master to tracking branch
+- git merge : merges the changes in tracking branch to local branch
+- git pull : fetch and merge  
 
 A fast-forward merge happens when the target branch (merged_branch) was branched from the current branch (master) and there are no changes to current branch since then.
 An automatic merge happens when the two histories have diverged, but GIT is able to reconcile them into one set of changes. This creates a new commit on current branch (master)
