@@ -1,9 +1,16 @@
+# Download from Download - https://git-scm.com/download/
+# Access GitHub using - https://github.com/
+
+# Setup user profile for communication with GitHub:
+-	git config --global user.name "<name>"
+-	git config --global user.email "<email-id>"
+
 #This is a practice repository having all GIT commands
 
 ##Commands Used:
-- git init : creates a new GIT repository
-- git status : compares working directory, staging area and current branch
-- git add : add all the changes at that point in time from working directory to staging area
+- git init : initialises a new GIT repository
+- git status : compares working directory, staging area/ stash and current branch
+- git add : add all the changes at that point in time from local or working directory to staging area/ stash
 - git commit : commit the changes from staging area to the current branch
 - git config : set or get the configuration parameters
 - git log : show history or log of project commits
@@ -22,7 +29,8 @@
 - git checkout name : check out or switches to the branch name
 - git checkout -b : creates a new branch and switches to it
 
-##To understand stash
+#To understand stash
+#A commit accepts files only from stash and GitHub only accepts code which is in commit state
 - git stash : stores the uncommitted changes from working directory and index state as WIP
 - git stash list : lists the uncommitted changes in the current branch
 - git stash pop : apply the uncommitted changes back to the working directory
