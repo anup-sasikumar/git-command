@@ -42,7 +42,7 @@
 
 ##GIT Remote
 # To set remote to add remote (origin) (for new project)
-- git remote add origin <git-url> : add a new <remote> at <git-url>
+- git remote add origin <git-url> : To set remote by adding the remote <origin> to specified repository <git-url>
 - git remote -v : list remote repositories
 - git push -u <remote> <branch> : push <branch> to <remote> and set default upstream for <branch>
 - git fetch : fetches files from remote origin master to tracking branch
