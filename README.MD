@@ -1,16 +1,13 @@
-# Download from Download - https://git-scm.com/download/
-# Access GitHub using - https://github.com/
+## Download from Download - https://git-scm.com/download/
+- Access GitHub using - https://github.com/
 
-# Setup user profile for communication with GitHub:
+## Setup user profile for communication with GitHub:
 -	git config --global user.name "<name>"
 -	git config --global user.email "<email-id>"
 
-#This is a practice repository having all GIT commands
-
-##Commands Used:
+## Basic GIT commands:
 - git init : initialises a new GIT repository. This will initialize a .git file in the folder
 - git status : compares working directory, staging area and current branch
-# A commit accepts files only from staging area and GitHub only accepts code which is in commit state
 - git add : add all the changes at that point in time from local or working directory to staging area
 - git commit : commit the changes from staging area to the current branch
 - git config : set or get the configuration parameters
@@ -25,22 +22,23 @@
 - git diff : shows the difference between working directory and HEAD
 - git diff <ref> : shows the difference working directory and commit reference
 - git diff --cached : shows the difference working directory and staging area ready to be committed
-- git branch -c name : creates a new branch with given name
-- git branch : lists all the branches in the repository with an indicator on current branch
-- git checkout name : check out or switches to the branch name
-- git checkout -b : creates a new branch and switches to it
 
-#To understand stash
-#A commit accepts files only from stash and GitHub only accepts code which is in commit state
+## Branching
+- git branch -c name : creates a new branch with given name
+- git checkout name : check out or switches to the branch name
+- git checkout -b <branch-name> : creates a new branch and switches to it
+- git branch : lists all the branches in the repository with an indicator on current branch
+
+## Stash
+# A commit accepts files only from stash and GitHub only accepts code which is in commit state
 - git stash : stores the uncommitted changes from working directory and index state as WIP
 - git stash list : lists the uncommitted changes in the current branch
 - git stash pop : apply the uncommitted changes back to the working directory
 
-
-##Merge operation brings changes from one branch into another
+## Merge operation brings changes from one branch into another
 - git merge : merge changes from different branches
 
-##GIT Remote
+## GIT Remote
 # To set remote to add remote (origin) (for new project)
 - git remote add origin <git-url> : To set remote by adding the remote <origin> to specified repository <git-url>
 - git remote -v : list remote repositories
